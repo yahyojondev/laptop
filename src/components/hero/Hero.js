@@ -3,7 +3,7 @@ import { PiTelegramLogoFill } from "react-icons/pi";
 import { FaInstagram } from "react-icons/fa6";
 import { TfiLinkedin } from "react-icons/tfi";
 import { RxHamburgerMenu } from "react-icons/rx";
-import rasm from "../../assets/images/photo_2023-10-23_20-32-33.jpg"
+import rasm from "../../assets/images/logo.jpg"
 
 function Hero() {
   return (
@@ -16,10 +16,10 @@ function Hero() {
             <h5>Frontend developer</h5>
             </div>
             <ul>
-                <li><a href="#"><PiTelegramLogoFill /><h4>TELEGRAM</h4></a></li>
-                <li><a href="#"><FaInstagram /><h4>INSTAGRAM</h4>
+                <li><a href="https://t.me/nabijonovdev"><PiTelegramLogoFill /><h4>TELEGRAM</h4></a></li>
+                <li><a href="https://www.instagram.com/yaxyojon_23.03/"><FaInstagram /><h4>INSTAGRAM</h4>
 </a></li>
-                <li><a href="#"><TfiLinkedin /><h4>LINKEDIN</h4></a></li>
+                <li><a href="https://www.linkedin.com/in/yahyobek-nabijonov-0b30232aa/"><TfiLinkedin /><h4>LINKEDIN</h4></a></li>
             </ul>
             <img src={rasm} alt="" />
             <a className='tab__link' href=""><RxHamburgerMenu /><p>taplink.ru</p></a>
