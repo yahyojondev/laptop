@@ -62,7 +62,7 @@ li{
   transition: 0.5s;
 }
 li:hover{
-  box-shadow: 0px 0px 2px 2px white;
+  box-shadow: 0px 0px 2px 2px gray;
 
 }
 a{
